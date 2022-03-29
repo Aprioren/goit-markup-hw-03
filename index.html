@@ -18,6 +18,7 @@ referrerpolicy="no-referrer" />
 <body>
 <!-- Хедер -->
 <header> 
+    <div class="container">
     <nav>
     <!-- Логотип сайта -->
     <a href="./index.html" class="logo-header">
@@ -30,19 +31,28 @@ referrerpolicy="no-referrer" />
             <li><a class="nav-links" href="">Контакты</a></li>
         </ul>
     </nav>
+</div>
+<div class="container">
     <ul class="lists-of-page">
         <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="contacts-link" href="tel:+380961111111">+3 8096 111 11 11 </a></li>
     </ul>
+</div>
 </header>
 <!--Мэйн-->
-    <main>
-    <section>
-    <h1 class="hero">Ефективные решения для вашего бизнеса</h1>
-    <button class="nav-buttons" type="button">Заказать услугу</button>
-</section>
+    <main> 
+    <section class="hero">
+        <!-- hero -->
+        <div class="container">
+
+            <h1 class="hero-title">Ефективные решения для вашего бизнеса</h1>
+            <button class="button-first-page" type="button">Заказать услугу</button>
+
+        </div>
+    </section>
 <!--ПРЕИМУЩЕСТВА -->
-<section class="advantages">
+<section class="advantages-style">
+    <div class="container">
     <h2 class="visual-hidden">Преимущества нашей компании</h2>
     <ul  class="lists-of-page">
         <li> 
@@ -62,45 +72,52 @@ referrerpolicy="no-referrer" />
             <p class="advantages-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
     </ul>
+</div>
 </section>
 <!-- Что мы делаем -->
-<section>
-    <h2 class="our-projects">Чем мы занимаемся</h2>
-    <ul class="lists-of-page">
-        <li><img src="./images/examples_of_work/example_of_computer.jpg" alt="computer" width="370"></li>
-        <li><img src="./images/examples_of_work/example_of_telephone.jpg" alt="telephone" width="370"></li>
-        <li><img src="./images/examples_of_work/example_of_tablet.jpg" alt="tablet" width="370"></li>
-    </ul>
+<section class="our-projects-styling">
+    <div class="container">
+        <h2 class="our-projects">Чем мы занимаемся</h2>
+        <ul class="lists-of-page">
+            <li><img src="./images/examples_of_work/example_of_computer.jpg" alt="computer" width="370"></li>
+            <li><img src="./images/examples_of_work/example_of_telephone.jpg" alt="telephone" width="370"></li>
+            <li><img src="./images/examples_of_work/example_of_tablet.jpg" alt="tablet" width="370"></li>
+        </ul>
+    </div>
 </section>
 <!-- Наша команда-->
-<section>
+<section class="our-team-section">
+    <div class="container">
     <h2 class="our-team">Наша команда</h2>
     <ul class="lists-of-page">
         <li>
-            <img src="./images/photos_of_team/igor_demyanenko.jpg" alt="Игорь Демьяненко" width="270">
+            <img class="our-team-img" src="./images/photos_of_team/igor_demyanenko.jpg" alt="Игорь Демьяненко" width="270">
             <h3 class="our-team-article">Игорь Демьяненко</h3>
             <p class="our-team-text">Product Designer</p>
         </li>
         <li>
-            <img src="./images/photos_of_team/olga_repina.jpg" alt="Ольга Репина" width="270">
+            <img class="our-team-img" src="./images/photos_of_team/olga_repina.jpg" alt="Ольга Репина" width="270">
             <h3 class="our-team-article">Ольга Репина</h3>
             <p class="our-team-text">Frontend Developer</p>
         </li>
         <li>
-            <img src="./images/photos_of_team/nikolay_tarasov.jpg" alt="Николай Тарасов" width="270">
+            <img class="our-team-img" src="./images/photos_of_team/nikolay_tarasov.jpg" alt="Николай Тарасов" width="270">
             <h3 class="our-team-article">Николай Тарасов</h3>
             <p class="our-team-text">Marketing</p>
         </li>
         <li>
-            <img src="./images/photos_of_team/mixail_ermakov.jpg" alt="Михаил Ермаков" width="270">
+            <img class="our-team-img" src="./images/photos_of_team/mixail_ermakov.jpg" alt="Михаил Ермаков" width="270">
             <h3 class="our-team-article">Михаил Ермаков</h3>
             <p class="our-team-text">UI Designer</p>
         </li>
     </ul>
+</div>
 </section>
 </main>
 <!-- Футер -->
+
 <footer class="footer">
+    <div class="container">
     <a href="./index.html" class="logo-footer">
        <span class="footer-logo-stile">Web</span>Studio
     </a>
@@ -111,6 +128,7 @@ referrerpolicy="no-referrer" />
         <li><a class="contacts-footer" href="tel:+380961111111">+3 8096 111 11 11 </a></li>
     </ul>
 </address>
+</div>
 </footer>
 </body>
 </html>
