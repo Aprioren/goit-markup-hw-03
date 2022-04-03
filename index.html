@@ -6,38 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
-integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
-crossorigin="anonymous" 
-referrerpolicy="no-referrer" />
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" 
+    crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+    rel="stylesheet">
     <link rel="stylesheet" href="./css/stylesheet.css">
     <title>WebStudio</title>
 </head>
 <body>
 <!-- Хедер -->
 <header> 
-    <div class="container">
-    <nav>
-    <!-- Логотип сайта -->
-    <a href="./index.html" class="logo-header">
-       <span class="logo-header-style">Web</span>Studio
-    </a>
-    <!--Навигация сайта-->
-        <ul class="lists-of-page">
-            <li><a class="nav-links" href="./index.html">Студия</a></li>
-            <li><a class="nav-links" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="nav-links" href="">Контакты</a></li>
+    <div class="container-of-header">
+        <nav class="main-nav"> 
+            <!-- Логотип сайта -->
+            <a href="./index.html" class="logo-header">
+            <span class="logo-header-style">Web</span>Studio
+            </a>
+            <!--Навигация сайта-->
+            <ul class="list-of-nav">
+                <li class="item"><a class="nav-links current" href="./index.html">Студия</a></li>
+                <li class="item"><a class="nav-links" href="./portfolio.html">Портфолио</a></li>
+                <li class="item"><a class="nav-links" href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <ul class="list-of-contact">
+            <li class="item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="item"><a class="contacts-link" href="tel:+380961111111">+3 8096 111 11 11 </a></li>
         </ul>
-    </nav>
-</div>
-<div class="container">
-    <ul class="lists-of-page">
-        <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-link" href="tel:+380961111111">+3 8096 111 11 11 </a></li>
-    </ul>
-</div>
+    </div>
 </header>
 <!--Мэйн-->
     <main> 
@@ -79,9 +80,9 @@ referrerpolicy="no-referrer" />
     <div class="container">
         <h2 class="our-projects">Чем мы занимаемся</h2>
         <ul class="lists-of-page">
-            <li><img src="./images/examples_of_work/example_of_computer.jpg" alt="computer" width="370"></li>
-            <li><img src="./images/examples_of_work/example_of_telephone.jpg" alt="telephone" width="370"></li>
-            <li><img src="./images/examples_of_work/example_of_tablet.jpg" alt="tablet" width="370"></li>
+            <li class="our-projects-item"><img src="./images/examples_of_work/example_of_computer.jpg" alt="computer" width="370"></li>
+            <li class="our-projects-item"><img src="./images/examples_of_work/example_of_telephone.jpg" alt="telephone" width="370"></li>
+            <li class="our-projects-item"><img src="./images/examples_of_work/example_of_tablet.jpg" alt="tablet" width="370"></li>
         </ul>
     </div>
 </section>
@@ -89,23 +90,23 @@ referrerpolicy="no-referrer" />
 <section class="our-team-section">
     <div class="container">
     <h2 class="our-team">Наша команда</h2>
-    <ul class="lists-of-page">
-        <li>
+    <ul class="our-team-list">
+        <li class="our-team-item">
             <img class="our-team-img" src="./images/photos_of_team/igor_demyanenko.jpg" alt="Игорь Демьяненко" width="270">
             <h3 class="our-team-article">Игорь Демьяненко</h3>
             <p class="our-team-text">Product Designer</p>
         </li>
-        <li>
+        <li class="our-team-item">
             <img class="our-team-img" src="./images/photos_of_team/olga_repina.jpg" alt="Ольга Репина" width="270">
             <h3 class="our-team-article">Ольга Репина</h3>
             <p class="our-team-text">Frontend Developer</p>
         </li>
-        <li>
+        <li class="our-team-item">
             <img class="our-team-img" src="./images/photos_of_team/nikolay_tarasov.jpg" alt="Николай Тарасов" width="270">
             <h3 class="our-team-article">Николай Тарасов</h3>
             <p class="our-team-text">Marketing</p>
         </li>
-        <li>
+        <li class="our-team-item">
             <img class="our-team-img" src="./images/photos_of_team/mixail_ermakov.jpg" alt="Михаил Ермаков" width="270">
             <h3 class="our-team-article">Михаил Ермаков</h3>
             <p class="our-team-text">UI Designer</p>
@@ -122,10 +123,10 @@ referrerpolicy="no-referrer" />
        <span class="footer-logo-stile">Web</span>Studio
     </a>
 <address>
-    <ul class="lists-of-page">
-        <li><a class="maps-link" href="https://goo.gl/maps/K5L1UCEUp2EXPLnL6" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-        <li><a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-footer" href="tel:+380961111111">+3 8096 111 11 11 </a></li>
+    <ul class="lists-of-footer">
+        <li class="footer-items"><a class="maps-link" href="https://goo.gl/maps/K5L1UCEUp2EXPLnL6" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+        <li class="footer-items"><a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="footer-items"><a class="contacts-footer" href="tel:+380961111111">+3 8096 111 11 11 </a></li>
     </ul>
 </address>
 </div>
